@@ -12,7 +12,7 @@ int main()
         LCM = calculatelcm(n2, n1);
     else
         LCM = calculatelcm(n1, n2);
-    printf(" The LCM of %d and %d :  %d\n", n1, n2, LCM);
+    printf(" The LCM of %d and %d = %d\n", n1, n2, LCM);
     return 0;
 }
 int calculatelcm(int a, int b)
